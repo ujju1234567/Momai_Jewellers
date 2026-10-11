@@ -32,6 +32,10 @@ jobs:
       - name: Build project
         run: npm run build
 
+      # Fix for Vite SPAs on GitHub Pages: Duplicate index.html as 404.html
+      - name: Add 404 fallback for SPA routing
+        run: cp dist/index.html dist/404.html
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
