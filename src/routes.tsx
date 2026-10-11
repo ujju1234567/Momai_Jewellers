@@ -536,6 +536,12 @@ function NotFound() {
   );
 }
 
+const testimonials = [
+  { quote: "The craftsmanship on our bridal set was breathtaking. Lifelong quality from a family we trust.", author: "Pooja & Rohan Shah" },
+  { quote: "Absolute purity and stunning heritage designs. The experience at their Bopal showroom was wonderful.", author: "Dr. Darshana Patel" },
+  { quote: "Bought everyday gold bangles and the finish is exquisite. Truly the pride of Gujarat craftsmanship.", author: "Kinjal Mehta" },
+];
+
 export const router = createBrowserRouter([
   { path: "/", Component: HomePage },
   { path: "/products", Component: ProductsPage },
