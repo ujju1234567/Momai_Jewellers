@@ -540,4 +540,6 @@ export const router = createBrowserRouter([
   { path: "/", Component: HomePage },
   { path: "/products", Component: ProductsPage },
   { path: "*", Component: NotFound },
-]);
+], {
+  basename: "/Momai_Jewellers",
+});
