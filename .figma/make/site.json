@@ -1,0 +1,10 @@
+{
+  "description": "Interactive toggle switch with smooth elastic animation and snap sound enhances user experience for designers and developers testing UI elements.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
